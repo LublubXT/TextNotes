@@ -1,9 +1,8 @@
     .navbar {
         margin-left: 10px;
     }
-
+    
     .textA {
-
         position: absolute;
         font-family: 'Courier New', Courier, monospace;
         font-weight: 900;
@@ -19,16 +18,215 @@
         font-size: 17px;
         margin: 1px;
     }
-
+    
     .textA {
         outline: none;
     }
-
-    body {
+    
+    .textAA {
+        position: absolute;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 900;
+        font-feature-settings: "liga"0, "calt"0;
+        line-height: auto;
+        letter-spacing: 0px;
+        width: 99.9%;
+        height: 90%;
+        color: #0f3057;
+        background-color: #e7e7de;
+        border: 0px solid black;
+        padding: 10px;
+        font-size: 17px;
+        margin: 1px;
+    }
+    
+    .textAA {
+        outline: none;
+    }
+    
+    .textAB {
+        position: absolute;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 900;
+        font-feature-settings: "liga"0, "calt"0;
+        line-height: auto;
+        letter-spacing: 0px;
+        width: 99.9%;
+        height: 90%;
+        color: #999b84;
+        background-color: #f4eeed;
+        border: 0px solid black;
+        padding: 10px;
+        font-size: 17px;
+        margin: 1px;
+    }
+    
+    .textAB {
+        outline: none;
+    }
+    
+    .bod {
         background-color: #e8eae6;
     }
-
+    
     .mainP {
         color: #7c9473;
         font-size: 16px;
+    }
+    
+    .mainPA {
+        color: #00587a;
+        font-size: 16px;
+    }
+    
+    .mainPB {
+        color: #d8ac9c;
+        font-size: 16px;
+    }
+    
+    .but {
+        color: #198754;
+        display: inline-block;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: middle;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+        background-color: transparent;
+        border: 1px solid #198754;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        border-radius: .25rem;
+        transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out, border-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out
+    }
+    
+    .but:hover {
+        color: #eeeeee;
+        box-shadow: 7px 7px 0px rgb(53, 53, 53);
+        border-color: #198754;
+        display: inline-block;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: middle;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+        background-color: #198754;
+        border: 1px solid #198754;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        border-radius: .25rem;
+    }
+    
+    .but::before {
+        border: none;
+    }
+    
+    .but::after {
+        border: none;
+    }
+    
+    .butA {
+        color: #0f3057;
+        display: inline-block;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: middle;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+        background-color: transparent;
+        border: 1px solid #0f3057;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        border-radius: .25rem;
+        transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out, border-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out
+    }
+    
+    .butA:hover {
+        color: #eeeeee;
+        box-shadow: 7px 7px 0px rgb(53, 53, 53);
+        border-color: #0f3057;
+        display: inline-block;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: middle;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+        background-color: #0f3057;
+        border: 1px solid #0f3057;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        border-radius: .25rem;
+    }
+    
+    .butA::before {
+        border: none;
+    }
+    
+    .butA::after {
+        border: none;
+    }
+    
+    .butB {
+        color: #999b84;
+        display: inline-block;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: middle;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+        background-color: transparent;
+        border: 1px solid #999b84;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        border-radius: .25rem;
+        transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out, border-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out
+    }
+    
+    .butB:hover {
+        color: #eeeeee;
+        box-shadow: 7px 7px 0px rgb(53, 53, 53);
+        border-color: #0f3057;
+        display: inline-block;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: middle;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+        background-color: #999b84;
+        border: 1px solid #999b84;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        border-radius: .25rem;
+    }
+    
+    .butB::before {
+        border: none;
+    }
+    
+    .butB::after {
+        border: none;
     }
